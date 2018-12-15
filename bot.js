@@ -319,12 +319,12 @@ client.on('message', message => {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .addField('2play', 'لتشغيل اغنية')
-        .addField('2join', 'دخول رومك الصوتي')
+        .addField('2vol', 'لتعلية الصوت')
  
         .addField('2skip', 'تخطي الأغنية')
         .addField('2pause', 'ايقاف الاغنية مؤقتا')
         .addField('2resume', 'تكملة الاغنية')
-        .setFooter('(1general_commands) لاظهار الاوامر العامة')
+        .setFooter('(2general_commands) لاظهار الاوامر العامة')
       message.channel.send(helpEmbed);
     }
 });
